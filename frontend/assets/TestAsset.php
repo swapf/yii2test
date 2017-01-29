@@ -1,0 +1,25 @@
+<?php
+namespace frontend\assets;
+
+use yii\web\AssetBundle;
+//use skeeks\template\smarty\AssetBundle;
+
+/**
+ * Main frontend application asset bundle.
+ */
+class TestAsset extends AssetBundle
+{
+    public $basePath = '@webroot';
+    public $baseUrl = '@web';
+    public $css = [
+        //'css/app.css',
+    ];
+    public $js = [
+        'js/app.js',
+    ];
+
+    public $depends = [
+        //'yii\web\YiiAsset',
+        //'yii\bootstrap\BootstrapPluginAsset',
+    ];
+}

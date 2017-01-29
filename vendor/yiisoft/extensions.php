@@ -48,4 +48,50 @@ return array (
       '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker',
     ),
   ),
+  'yiisoft/yii2-httpclient' => 
+  array (
+    'name' => 'yiisoft/yii2-httpclient',
+    'version' => '2.0.2.0',
+    'alias' => 
+    array (
+      '@yii/httpclient' => $vendorDir . '/yiisoft/yii2-httpclient',
+    ),
+  ),
+  'yiisoft/yii2-authclient' => 
+  array (
+    'name' => 'yiisoft/yii2-authclient',
+    'version' => '2.1.1.0',
+    'alias' => 
+    array (
+      '@yii/authclient' => $vendorDir . '/yiisoft/yii2-authclient',
+    ),
+  ),
+  'dektrium/yii2-user' => 
+  array (
+    'name' => 'dektrium/yii2-user',
+    'version' => '0.9.12.0',
+    'alias' => 
+    array (
+      '@dektrium/user' => $vendorDir . '/dektrium/yii2-user',
+    ),
+    'bootstrap' => 'dektrium\\user\\Bootstrap',
+  ),
+  'skeeks/yii2-template-unify' => 
+  array (
+    'name' => 'skeeks/yii2-template-unify',
+    'version' => '1.9.1.0',
+    'alias' => 
+    array (
+      '@skeeks/template/unify' => $vendorDir . '/skeeks/yii2-template-unify',
+    ),
+  ),
+  'skeeks/yii2-template-smarty' => 
+  array (
+    'name' => 'skeeks/yii2-template-smarty',
+    'version' => '1.1.3.0',
+    'alias' => 
+    array (
+      '@skeeks/template/smarty' => $vendorDir . '/skeeks/yii2-template-smarty',
+    ),
+  ),
 );

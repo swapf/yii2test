@@ -18,12 +18,23 @@ class ComposerStaticInit2748424fcd7594d5a26258f60f48ef95
         'y' => 
         array (
             'yii\\swiftmailer\\' => 16,
+            'yii\\httpclient\\' => 15,
             'yii\\gii\\' => 8,
             'yii\\faker\\' => 10,
             'yii\\debug\\' => 10,
             'yii\\composer\\' => 13,
             'yii\\bootstrap\\' => 14,
+            'yii\\authclient\\' => 15,
             'yii\\' => 4,
+        ),
+        's' => 
+        array (
+            'skeeks\\template\\unify\\' => 22,
+            'skeeks\\template\\smarty\\' => 23,
+        ),
+        'd' => 
+        array (
+            'dektrium\\user\\' => 14,
         ),
         'c' => 
         array (
@@ -70,6 +81,10 @@ class ComposerStaticInit2748424fcd7594d5a26258f60f48ef95
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-swiftmailer',
         ),
+        'yii\\httpclient\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2-httpclient',
+        ),
         'yii\\gii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-gii',
@@ -90,9 +105,25 @@ class ComposerStaticInit2748424fcd7594d5a26258f60f48ef95
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-bootstrap',
         ),
+        'yii\\authclient\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2-authclient',
+        ),
         'yii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
+        ),
+        'skeeks\\template\\unify\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/skeeks/yii2-template-unify',
+        ),
+        'skeeks\\template\\smarty\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/skeeks/yii2-template-smarty',
+        ),
+        'dektrium\\user\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dektrium/yii2-user',
         ),
         'cebe\\markdown\\' => 
         array (
